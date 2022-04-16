@@ -1,5 +1,23 @@
 @charset "UTF-8";
 
+@font-face {
+  font-family: 'PassionOne';
+  src: url('/continuando/Cordel/01/fonts/Passion_One/PassionOne-Black.ttf') format('opentype');
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Sriracha';
+  src: url('/continuando/Cordel/01/fonts/Sriracha/Sriracha-Regular.ttf') format('opentype');
+  font-weight: normal;
+}
+
+:root {
+  --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+  --fonte2: 'PassionOne', cursive;
+  --fonte3: 'Sriracha', cursive;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,6 +25,7 @@
 
 html,
 body {
+  font-family: var(--fonte1);
   min-height: 100vh;
   background-color: darkgray;
 }
@@ -17,10 +36,14 @@ header {
   text-align: center;
 }
 
+
+
 header>h1 {
   padding-top: 50px;
   font-variant: small-caps;
+  font-family: var(--fonte2);
   /*As letras todas maiusculas*/
+  font-size: 10vw;
 }
 
 header>p {
@@ -42,6 +65,8 @@ section {
   padding-bottom: 10vh;
   line-height: 2em;
   padding-left: 15px;
+  font-family: var(--fonte3);
+  font-size: 3.5vw;
 }
 
 
@@ -57,8 +82,9 @@ section.imagem {
 }
 
 section.imagem>p {
+  display: inline-block;
+  padding: 10px;
   background-color: rgba(0, 0, 0, 0.199);
-  width: 400px;
 
 
 }
