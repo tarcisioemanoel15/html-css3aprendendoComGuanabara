@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: dimgray;
+  margin: 0px;
+}
+
+header {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 4px 4px 16px 0px black;
+}
+
+h1 {}
+
+nav {
+  background-color: gray;
+  padding: 3px;
+}
+
+nav>a {
+  text-decoration: none;
+  color: white;
+  font-size: bold;
+  margin-right: 30px;
+}
+
+nav>a:hover {
+  text-decoration: underline;
+}
+
+main {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+section {}
+
+article {
+  background-color: lightcyan;
+  padding: 5px;
+}
+
+article>aside {
+  background-color: rgb(66, 64, 64);
+
+}
+
+aside {}
+
+footer {}

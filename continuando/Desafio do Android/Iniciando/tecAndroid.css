@@ -1,0 +1,150 @@
+@font-face {
+
+  font-family: 'and';
+  src: url('/fontes/idroid.otf') format('opentype');
+  font-weight: normal;
+
+}
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: linear-gradient(#6be09e, #4bb97b, #205135, #0d361f);
+}
+
+header h1,
+h6 {
+  text-align: center;
+  padding: 10px;
+  color: white;
+  font-family: 'and';
+}
+
+header ul {
+  display: flex;
+  padding: 10px;
+}
+
+
+header li {
+
+  list-style: none;
+}
+
+header a {
+  color: aliceblue;
+  padding: 10px;
+  text-decoration: none;
+
+}
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+main {
+  background: rgb(131, 226, 169);
+
+
+}
+
+section {
+  max-width: 1000px;
+  background: rgb(255, 255, 255);
+  margin: auto;
+  padding: 15px;
+  border-radius: 0px 0px 10px 10px;
+}
+
+h2 {
+  background-color: #DEF2E8;
+}
+
+.container {
+  padding: 0px 10px 10px 10px;
+}
+
+section h5 {
+  background-color: aqua;
+
+  border-radius: 10px 10px 0px 0px;
+  padding: 5px;
+}
+
+section .container {
+  border-radius: 0px 0px 10px 10px;
+  background: violet;
+
+}
+
+
+.containerUl {
+
+  display: flex;
+  justify-content: first baseline;
+  padding: 10px 50px 50px 50px;
+}
+
+.containerUl>ul {
+  margin: 10px 80px 10px 10px;
+}
+
+.containerUl li {
+  list-style: circle;
+}
+
+.containerUl p {
+  padding: 40px;
+}
+
+
+
+.paraVideo,
+img {
+  max-width: 1030px;
+  max-height: 600px;
+  margin: auto;
+}
+
+img {
+  min-width: -webkit-fill-available;
+}
+
+
+
+
+/*xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+footer {
+  text-align: center;
+  background-color: rgb(30, 76, 43);
+  color: white;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+
+@media screen and (max-width: 830px) {
+
+  .paraVideo,
+  img {
+    max-width: 600px;
+    max-height: 600px;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 630px) {
+
+  .paraVideo,
+  img {
+    max-width: 200px;
+    max-height: 600px;
+    margin: auto;
+  }
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Pesu do Elemento </title>
+
+  <style>
+    li {
+      list-style: none;
+      padding: 20px;
+    }
+
+    a {
+      color: brown;
+      text-decoration: none;
+      font-size: 25px;
+      background: rgba(238, 130, 238, 0.39);
+      padding: 10px;
+    }
+
+    a:hover {
+      color: aqua;
+      font-size: 30px;
+    }
+
+    a:visited {
+      color: red;
+    }
+
+    a:active {
+      background: rgb(0, 4, 255);
+      color: rgb(255, 251, 0);
+    }
+
+
+    a::after {
+      content: ' link';
+      color: rgba(211, 81, 81, 0.644);
+    }
+
+    a::before {
+      content: 'link  ';
+      color: rgba(211, 81, 81, 0.644);
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <h1>Links</h1>
+
+  <ul>
+    <li><a href="https://tarcisioemanoel15.github.io/" target="_blank">ST Serra</a></li>
+    <li><a href="https://www.google.com" target="_blank">google</a></li>
+    <li><a href="https://github.com/tarcisioemanoel15" target="_blank">github</a></li>
+  </ul>
+
+</body>
+
+</html>
